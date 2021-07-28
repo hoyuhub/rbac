@@ -25,7 +25,5 @@ namespace RBAC.Entitys
 
         // 排序
         public int Sort { get; set; }
-        public DateTime Create { get; set; }
-        public DateTime Update { get; set; }
     }
 }
