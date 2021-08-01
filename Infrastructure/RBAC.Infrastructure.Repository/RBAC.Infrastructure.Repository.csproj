@@ -13,7 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Domain\RBAC.Entitys\RBAC.Entitys.csproj" />
+    <ProjectReference Include="..\..\Domain\RBAC.Models\RBAC.Models.csproj" />
+    <ProjectReference Include="..\RBAC.Entitys\RBAC.Entitys.csproj" />
   </ItemGroup>
 
 </Project>
