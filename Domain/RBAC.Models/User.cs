@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RBAC.Models
+﻿namespace RBAC.Models
 {
-    public class User
+    public class User : BaseModel
     {
         // 登录名
         public string LoginName { get; set; }
